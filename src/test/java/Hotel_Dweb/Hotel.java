@@ -307,12 +307,12 @@ public void main(String City) throws InterruptedException, ParseException {
 		 @DataProvider(name="hoteldata")
 		 public Object[][] passData(){
 		 	
-		 	Object[][] data =new Object[4][1];
+		 	Object[][] data =new Object[3][1];
 
 		 	data[0][0]="Delhi";
 		 	data[1][0]="Amritsar";
 		 	data[2][0]="Gurgaon";
-		 	data[3][0]="Mumbai";
+//		 	data[3][0]="Mumbai";
 		 	
 		 	return data;
 		 }
