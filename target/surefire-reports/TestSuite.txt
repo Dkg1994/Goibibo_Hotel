@@ -1,0 +1,43 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 1, Errors: 0, Skipped: 11, Time elapsed: 11.648 sec <<< FAILURE! - in TestSuite
+SetupApplication(Hotel_Dweb.Hotel)  Time elapsed: 11.482 sec  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created
+from chrome not reachable
+  (Session info: chrome=75.0.3770.80)
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DEVENDRAGUPTA', ip: '192.168.30.32', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00B17DF3+1474035]
+	Ordinal0 [0x00A907D1+919505]
+	Ordinal0 [0x00A2C9B9+510393]
+	Ordinal0 [0x00A25749+481097]
+	Ordinal0 [0x00A25CE7+482535]
+	Ordinal0 [0x00A26D55+486741]
+	Ordinal0 [0x00A22C2F+470063]
+	Ordinal0 [0x00A2D7F0+514032]
+	Ordinal0 [0x009E15EA+202218]
+	Ordinal0 [0x009E069D+198301]
+	Ordinal0 [0x009DEECB+192203]
+	Ordinal0 [0x009C5FF6+90102]
+	Ordinal0 [0x009C765A+95834]
+	Ordinal0 [0x009C7554+95572]
+	GetHandleVerifier [0x00C7231C+1249612]
+	GetHandleVerifier [0x00BC1575+525221]
+	GetHandleVerifier [0x00BC1310+524608]
+	Ordinal0 [0x00B25D28+1531176]
+	GetHandleVerifier [0x00BC1D4A+527226]
+	Ordinal0 [0x00AA75F6+1013238]
+	Ordinal0 [0x00AA746F+1012847]
+	Ordinal0 [0x00AB365B+1062491]
+	Ordinal0 [0x00AB379F+1062815]
+	Ordinal0 [0x00AB2745+1058629]
+	BaseThreadInitThunk [0x760F0419+25]
+	RtlGetAppContainerNamedObjectPath [0x7747662D+237]
+	RtlGetAppContainerNamedObjectPath [0x774765FD+189]
+
+	at Hotel_Dweb.Hotel.SetupApplication(Hotel.java:46)
+

@@ -73,3 +73,4 @@
 [0706/141848.359:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\DEVEND~1.GUP\AppData\Local\Temp\scoped_dir17492_25140\Crashpad: The system cannot find the file specified. (0x2)
 [0706/143948.316:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\DEVEND~1.GUP\AppData\Local\Temp\scoped_dir22040_28896\Crashpad: The system cannot find the file specified. (0x2)
 [0706/145724.526:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0707/134700.791:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\DEVEND~1.GUP\AppData\Local\Temp\scoped_dir25092_23203\Crashpad: The system cannot find the file specified. (0x2)
