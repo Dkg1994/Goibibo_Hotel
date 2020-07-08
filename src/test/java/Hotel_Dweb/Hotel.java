@@ -12,6 +12,7 @@ import org.joda.time.DateTime;
 import org.joda.time.LocalDate;
 import org.joda.time.Months;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -50,7 +51,7 @@ Reporter.log("========= Browser Seesion Started=======",true);
 	driver.manage().window().maximize();
 	
 
-	driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+	driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
 	driver.manage().deleteAllCookies();
 	
@@ -95,7 +96,7 @@ public void main(String City) throws InterruptedException, ParseException {
 				  Reporter.log("Checkin passed",true);
 
 				  
-				     driver.findElement(By.xpath("//*[@id=\"root\"]/section/div/div[3]/section[1]/div[1]/div/div[3]/div/div[1]/div")).click();
+				     driver.findElement(By.xpath("//body/div[@id='root']/div[@class='dwebCommonstyles__BaseColumnWrap-sc-112ty3f-2 HomePagestyles__HomeBodyWrapperSection-s8m7jv-0 cGmqpS']/div[@class='HomePagestyles__HomeBodyWrapperContentDiv-s8m7jv-1 gDSkHw']/section[@class='HomePagestyles__SearchBlockOuterWrapper-s8m7jv-5 kZbUex']/div[@class='SearchBlockUIstyles__AutoSuggestOuterWrap-fity7j-0 hMqvOm']/div[@class='SearchBlockUIstyles__AutoSuggestInnerWrap-fity7j-1 YguQT']/div[@class='SearchBlockUIstyles__CitySearchWrap-fity7j-8 OrCog']/div[@class='dwebCommonstyles__CenteredSpaceWrap-sc-112ty3f-0 SearchBlockUIstyles__SearchCheckingDateWrap-fity7j-15 ggSROf']/div[1]/div[1]")).click();
 				        String setDatestr="17/12/2020";
 				        String currDatestr=driver.findElement(By.xpath("//p[@class='dcalendarstyles__MonthNamePara-r2jz2t-3 bVBYQn']")).getText();
 				        Date setDate =new SimpleDateFormat("dd/MM/yyyy").parse(setDatestr);
@@ -111,9 +112,9 @@ public void main(String City) throws InterruptedException, ParseException {
 				        for (int i=0;i<monthDiff;i++)
 				        {
 				            if(isFuture)
-				                driver.findElement(By.xpath("//div[@class='dcalendarstyles__MonthChangeRightArrowDiv-r2jz2t-16 eVCvYn']//div[@class='dcalendarstyles__SliderArrow-r2jz2t-14 jGviQM']//*[local-name()='svg']")).click();
+				                driver.findElement(By.xpath("//div[@class='dcalendarstyles__MonthChangeRightArrowDiv-r2jz2t-16 ifCIiL']//div[@class='dcalendarstyles__SliderArrow-r2jz2t-14 jGviQM']")).click();
 				            else
-				                driver.findElement(By.xpath("//div[@class='dcalendarstyles__MonthChangeLeftArrowDiv-r2jz2t-15 jxjYIU']//div[@class='dcalendarstyles__SliderArrow-r2jz2t-14 jGviQM']//*[local-name()='svg']")).click();
+				                driver.findElement(By.xpath("//div[@class='dcalendarstyles__MonthChangeLeftArrowDiv-r2jz2t-15 dXAuFt']")).click();
 				        }
 				      
  
@@ -162,7 +163,7 @@ public void main(String City) throws InterruptedException, ParseException {
 			
 			Thread.sleep(2000);
 			
-		driver.findElement(By.xpath("//section[@class='SRPstyles__RightSectionWrapperStyle-sc-19ucfhx-3 eYQdmB']")).isDisplayed();
+		driver.findElement(By.xpath("//section[@class='SRPstyles__RightSectionWrapperStyle-sc-19ucfhx-2 eaXvqx']")).isDisplayed();
 
 			Thread.sleep(1000);
 
@@ -170,7 +171,7 @@ public void main(String City) throws InterruptedException, ParseException {
 			
 			Thread.sleep(1000);
 			
-		driver.findElement(By.xpath("//section[@class='SRPstyles__RightSectionWrapperStyle-sc-19ucfhx-3 eYQdmB']")).isDisplayed();//Hotel is display or not	
+		driver.findElement(By.xpath("//section[@class='SRPstyles__RightSectionWrapperStyle-sc-19ucfhx-2 eaXvqx']")).isDisplayed();//Hotel is display or not	
 			
 			Thread.sleep(1000);
 
@@ -178,7 +179,7 @@ public void main(String City) throws InterruptedException, ParseException {
 			
 			Thread.sleep(1000);
 
-			driver.findElement(By.xpath("//section[@class='SRPstyles__RightSectionWrapperStyle-sc-19ucfhx-3 eYQdmB']")).isDisplayed();
+			driver.findElement(By.xpath("//section[@class='SRPstyles__RightSectionWrapperStyle-sc-19ucfhx-2 eaXvqx']")).isDisplayed();
 
 			driver.findElement(By.xpath(all_hotel)).click();
 
@@ -188,25 +189,31 @@ public void main(String City) throws InterruptedException, ParseException {
 //==========================Check dropdown filter==========================================
 			
 			
-		driver.findElement(By.xpath("//div[@class='NavigationHeaderstyles__QuickFiltersWrapper-m6ew4i-5 iClheF']//div[1]//div[1]")).click();
+		driver.findElement(By.xpath("//span[contains(text(),'Top locations')]")).click();
 		
 		Thread.sleep(1000);
 		
 		driver.findElement(By.xpath("//span[contains(text(),'Top landmark')]")).click();
 
 		Thread.sleep(1000);
-		
-		driver.findElement(By.xpath("//span[contains(text(),'Top transit')]")).click();
-		
-		
+//		
+//		driver.findElement(By.xpath("//span[contains(text(),'Top transit')]")).click();
+//		
+//		Thread.sleep(1000);
 			
 		//===========================================================================================
 			
+		
+		Thread.sleep(4000);
+		
 				  Reporter.log("Hotelselection passed",true);
 
-				  driver.findElement(By.xpath(Hotelselction)).click();
 				  
-				  Thread.sleep(7000);
+				  WebElement element = driver.findElement(By.xpath(Hotelselction));
+				  JavascriptExecutor executor = (JavascriptExecutor)driver;
+				  executor.executeScript("arguments[0].click();", element);
+				  				  
+				  Thread.sleep(3000);
 				  
 				  ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
 
@@ -312,7 +319,6 @@ public void main(String City) throws InterruptedException, ParseException {
 		 	data[0][0]="Delhi";
 		 	data[1][0]="Amritsar";
 		 	data[2][0]="Gurgaon";
-//		 	data[3][0]="Mumbai";
 		 	
 		 	return data;
 		 }

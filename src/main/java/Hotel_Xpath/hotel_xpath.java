@@ -15,9 +15,9 @@ public class hotel_xpath  {
 
 	protected  String Checkoutdate = "//span[@class='rightactive']";
   
-	protected  String Searchbutton = "//*[@id=\"root\"]/section/div/div[3]/section[1]/div[1]/div/button";
+	protected  String Searchbutton = "//button[@class='SearchBlockUIstyles__SearchButtonAutoSuggest-fity7j-12 kGmYkx']";
 	
-	protected  String Hotelselction = "//*[@id=\"root\"]/span/div/section[2]/div[2]/div/div[2]/div/div/div[2]/div[1]/div[1]";
+	protected  String Hotelselction = "//*[@id=\"root\"]/div[2]/div/section[2]/div[2]/div/div[3]/div/div";
 	
 	protected  String SelectHotel = "//div[@id='rooms']//div[2]//div[2]//div[1]//div[3]//div[2]//button[1]";
 	
@@ -38,25 +38,25 @@ public class hotel_xpath  {
 	
 	
 	
-	protected  String Free_cancellation = "//*[@id=\"root\"]/span/div/section[1]/div[1]/div[2]/div[1]/div[2]/div/span";
+	protected  String Free_cancellation = "//span[@class='CheckBoxList__CheckBoxListText-sc-5k7440-7 jgCbXV'][contains(text(),'Free Cancellation')]";
 
 	protected  String Expected_Val = "Free Cancellation";
 	
-	protected  String Pay_At_Hotel= "//*[@id=\"root\"]/span/div/section[1]/div[1]/div[2]/div[1]/div[3]/div/span";
+	protected  String Pay_At_Hotel= "//span[@class='CheckBoxList__CheckBoxListText-sc-5k7440-7 jgCbXV'][contains(text(),'Pay At Hotel')]";
 	
 	protected  String Expected_Val2 = "Pay At Hotel";
 	
-	protected  String Free_breakfast = "//span[@class='CheckBoxList__CheckBoxListText-sc-5k7440-10 eEcsXD'][contains(text(),'Free Breakfast')]";
+	protected  String Free_breakfast = "//span[@class='CheckBoxList__CheckBoxListText-sc-5k7440-7 jgCbXV'][contains(text(),'Free Breakfast')]";
 	
 	protected  String Expected_Val3 = "Free Breakfast";
 	
 	
 	
-	protected  String go_safe = "//*[@id=\"root\"]/span/section/div[1]/span[1]/ul/ul/li[2]/span/span";
+	protected  String go_safe = "//span[contains(text(),'goSafe')]";
 	
 	protected  String go_stays = "//span[contains(text(),'goStays Certified')]";
 	
-	protected  String couple_friendly = "//*[@id=\"root\"]/span/section/div[1]/span[1]/ul/ul/li[4]/span/span";
+	protected  String couple_friendly = "//div[@class='dwebCommonstyles__CenteredDivWrap-sc-112ty3f-1 hvDXEU']//span[contains(text(),'Couple Friendly')]";
 	
 	protected  String all_hotel	= "//span[contains(text(),'All Hotels')]";
 	
@@ -72,11 +72,9 @@ public class hotel_xpath  {
 	
 	protected  String Wallet =  "//span[contains(text(),'Wallets')]";
 
-	public void onTestFailure() {
-		// TODO Auto-generated method stub
-		
+	
 	}
 	
-}
+
 
 ;

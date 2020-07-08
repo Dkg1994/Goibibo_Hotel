@@ -1,677 +1,358 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="4" failed="0" ignored="0" total="4" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
     <line>
       <![CDATA[========= Browser Seesion Started=======]]>
     </line>
+    <line>
+      <![CDATA[=====Website Url is opening=====]]>
+    </line>
+    <line>
+      <![CDATA[ ========== TestCase Started on homepage ======]]>
+    </line>
+    <line>
+      <![CDATA[Hotelicon passed]]>
+    </line>
+    <line>
+      <![CDATA[Enter the location passed]]>
+    </line>
+    <line>
+      <![CDATA[Select dropdown passed ]]>
+    </line>
+    <line>
+      <![CDATA[Checkin passed]]>
+    </line>
+    <line>
+      <![CDATA[Searchbutton passed]]>
+    </line>
+    <line>
+      <![CDATA[======Test case start on SRP page]]>
+    </line>
+    <line>
+      <![CDATA[Check all filters on SRP page]]>
+    </line>
+    <line>
+      <![CDATA[Hotelselection passed]]>
+    </line>
+    <line>
+      <![CDATA[SelectHotel passed]]>
+    </line>
+    <line>
+      <![CDATA[======= Assertion check on Review page =======]]>
+    </line>
+    <line>
+      <![CDATA[Traveller details passed]]>
+    </line>
+    <line>
+      <![CDATA[Proc_To_Payment passed]]>
+    </line>
+    <line>
+      <![CDATA[=======Assertion Check start on Payment page=======]]>
+    </line>
+    <line>
+      <![CDATA[========= Browser Seesion Started=======]]>
+    </line>
+    <line>
+      <![CDATA[=====Website Url is opening=====]]>
+    </line>
+    <line>
+      <![CDATA[ ========== TestCase Started on homepage ======]]>
+    </line>
+    <line>
+      <![CDATA[Hotelicon passed]]>
+    </line>
+    <line>
+      <![CDATA[Enter the location passed]]>
+    </line>
+    <line>
+      <![CDATA[Select dropdown passed ]]>
+    </line>
+    <line>
+      <![CDATA[Checkin passed]]>
+    </line>
+    <line>
+      <![CDATA[Searchbutton passed]]>
+    </line>
+    <line>
+      <![CDATA[======Test case start on SRP page]]>
+    </line>
+    <line>
+      <![CDATA[Check all filters on SRP page]]>
+    </line>
+    <line>
+      <![CDATA[Hotelselection passed]]>
+    </line>
+    <line>
+      <![CDATA[SelectHotel passed]]>
+    </line>
+    <line>
+      <![CDATA[======= Assertion check on Review page =======]]>
+    </line>
+    <line>
+      <![CDATA[Traveller details passed]]>
+    </line>
+    <line>
+      <![CDATA[Proc_To_Payment passed]]>
+    </line>
+    <line>
+      <![CDATA[=======Assertion Check start on Payment page=======]]>
+    </line>
+    <line>
+      <![CDATA[========= Browser Seesion Started=======]]>
+    </line>
+    <line>
+      <![CDATA[=====Website Url is opening=====]]>
+    </line>
+    <line>
+      <![CDATA[ ========== TestCase Started on homepage ======]]>
+    </line>
+    <line>
+      <![CDATA[Hotelicon passed]]>
+    </line>
+    <line>
+      <![CDATA[Enter the location passed]]>
+    </line>
+    <line>
+      <![CDATA[Select dropdown passed ]]>
+    </line>
+    <line>
+      <![CDATA[Checkin passed]]>
+    </line>
+    <line>
+      <![CDATA[Searchbutton passed]]>
+    </line>
+    <line>
+      <![CDATA[======Test case start on SRP page]]>
+    </line>
+    <line>
+      <![CDATA[Check all filters on SRP page]]>
+    </line>
+    <line>
+      <![CDATA[Hotelselection passed]]>
+    </line>
+    <line>
+      <![CDATA[SelectHotel passed]]>
+    </line>
+    <line>
+      <![CDATA[======= Assertion check on Review page =======]]>
+    </line>
+    <line>
+      <![CDATA[Traveller details passed]]>
+    </line>
+    <line>
+      <![CDATA[Proc_To_Payment passed]]>
+    </line>
+    <line>
+      <![CDATA[=======Assertion Check start on Payment page=======]]>
+    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="23363" started-at="2020-07-07T08:14:47Z" finished-at="2020-07-07T08:15:10Z">
+  <suite name="Default suite" duration-ms="318336" started-at="2020-07-08T11:58:02Z" finished-at="2020-07-08T12:03:20Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="23363" started-at="2020-07-07T08:14:47Z" finished-at="2020-07-07T08:15:10Z">
+    <test name="Default test" duration-ms="318336" started-at="2020-07-08T11:58:02Z" finished-at="2020-07-08T12:03:20Z">
       <class name="Hotel_Dweb.Hotel">
-        <test-method status="FAIL" signature="SetupApplication()[pri:0, instance:Hotel_Dweb.Hotel@2f686d1f]" name="SetupApplication" is-config="true" duration-ms="23224" started-at="2020-07-07T08:14:47Z" finished-at="2020-07-07T08:15:10Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: unable to discover open window in chrome
-  (Session info: chrome=75.0.3770.80)
-Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'DEVENDRAGUPTA', ip: '192.168.30.32', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-Ordinal0 [0x00B17DF3+1474035]
-Ordinal0 [0x00A907D1+919505]
-Ordinal0 [0x00A2CB43+510787]
-Ordinal0 [0x00A1D073+446579]
-Ordinal0 [0x009E0E7B+200315]
-Ordinal0 [0x009E069D+198301]
-Ordinal0 [0x009DEECB+192203]
-Ordinal0 [0x009C5FF6+90102]
-Ordinal0 [0x009C765A+95834]
-Ordinal0 [0x009C7554+95572]
-GetHandleVerifier [0x00C7231C+1249612]
-GetHandleVerifier [0x00BC1575+525221]
-GetHandleVerifier [0x00BC1310+524608]
-Ordinal0 [0x00B25D28+1531176]
-GetHandleVerifier [0x00BC1D4A+527226]
-Ordinal0 [0x00AA75F6+1013238]
-Ordinal0 [0x00AA746F+1012847]
-Ordinal0 [0x00AB365B+1062491]
-Ordinal0 [0x00AB379F+1062815]
-Ordinal0 [0x00AB2745+1058629]
-BaseThreadInitThunk [0x760F0419+25]
-RtlGetAppContainerNamedObjectPath [0x7747662D+237]
-RtlGetAppContainerNamedObjectPath [0x774765FD+189]
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: unable to discover open window in chrome
-  (Session info: chrome=75.0.3770.80)
-Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'DEVENDRAGUPTA', ip: '192.168.30.32', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-Ordinal0 [0x00B17DF3+1474035]
-Ordinal0 [0x00A907D1+919505]
-Ordinal0 [0x00A2CB43+510787]
-Ordinal0 [0x00A1D073+446579]
-Ordinal0 [0x009E0E7B+200315]
-Ordinal0 [0x009E069D+198301]
-Ordinal0 [0x009DEECB+192203]
-Ordinal0 [0x009C5FF6+90102]
-Ordinal0 [0x009C765A+95834]
-Ordinal0 [0x009C7554+95572]
-GetHandleVerifier [0x00C7231C+1249612]
-GetHandleVerifier [0x00BC1575+525221]
-GetHandleVerifier [0x00BC1310+524608]
-Ordinal0 [0x00B25D28+1531176]
-GetHandleVerifier [0x00BC1D4A+527226]
-Ordinal0 [0x00AA75F6+1013238]
-Ordinal0 [0x00AA746F+1012847]
-Ordinal0 [0x00AB365B+1062491]
-Ordinal0 [0x00AB379F+1062815]
-Ordinal0 [0x00AB2745+1058629]
-BaseThreadInitThunk [0x760F0419+25]
-RtlGetAppContainerNamedObjectPath [0x7747662D+237]
-RtlGetAppContainerNamedObjectPath [0x774765FD+189]
-
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
-at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
-at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
-at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
-at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
-at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
-at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
-at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
-at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
-at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:219)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:142)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
-at Hotel_Dweb.Hotel.SetupApplication(Hotel.java:46)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method status="PASS" signature="SetupApplication()[pri:0, instance:Hotel_Dweb.Hotel@2f686d1f]" name="SetupApplication" is-config="true" duration-ms="22806" started-at="2020-07-08T11:58:02Z" finished-at="2020-07-08T11:58:25Z">
           <reporter-output>
             <line>
               <![CDATA[========= Browser Seesion Started=======]]>
             </line>
+            <line>
+              <![CDATA[=====Website Url is opening=====]]>
+            </line>
           </reporter-output>
         </test-method> <!-- SetupApplication -->
-        <test-method status="SKIP" signature="main(java.lang.String)[pri:0, instance:Hotel_Dweb.Hotel@2f686d1f]" name="main" duration-ms="0" started-at="2020-07-07T08:15:10Z" data-provider="hoteldata" finished-at="2020-07-07T08:15:10Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: unable to discover open window in chrome
-  (Session info: chrome=75.0.3770.80)
-Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'DEVENDRAGUPTA', ip: '192.168.30.32', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-Ordinal0 [0x00B17DF3+1474035]
-Ordinal0 [0x00A907D1+919505]
-Ordinal0 [0x00A2CB43+510787]
-Ordinal0 [0x00A1D073+446579]
-Ordinal0 [0x009E0E7B+200315]
-Ordinal0 [0x009E069D+198301]
-Ordinal0 [0x009DEECB+192203]
-Ordinal0 [0x009C5FF6+90102]
-Ordinal0 [0x009C765A+95834]
-Ordinal0 [0x009C7554+95572]
-GetHandleVerifier [0x00C7231C+1249612]
-GetHandleVerifier [0x00BC1575+525221]
-GetHandleVerifier [0x00BC1310+524608]
-Ordinal0 [0x00B25D28+1531176]
-GetHandleVerifier [0x00BC1D4A+527226]
-Ordinal0 [0x00AA75F6+1013238]
-Ordinal0 [0x00AA746F+1012847]
-Ordinal0 [0x00AB365B+1062491]
-Ordinal0 [0x00AB379F+1062815]
-Ordinal0 [0x00AB2745+1058629]
-BaseThreadInitThunk [0x760F0419+25]
-RtlGetAppContainerNamedObjectPath [0x7747662D+237]
-RtlGetAppContainerNamedObjectPath [0x774765FD+189]
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: unable to discover open window in chrome
-  (Session info: chrome=75.0.3770.80)
-Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'DEVENDRAGUPTA', ip: '192.168.30.32', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-Ordinal0 [0x00B17DF3+1474035]
-Ordinal0 [0x00A907D1+919505]
-Ordinal0 [0x00A2CB43+510787]
-Ordinal0 [0x00A1D073+446579]
-Ordinal0 [0x009E0E7B+200315]
-Ordinal0 [0x009E069D+198301]
-Ordinal0 [0x009DEECB+192203]
-Ordinal0 [0x009C5FF6+90102]
-Ordinal0 [0x009C765A+95834]
-Ordinal0 [0x009C7554+95572]
-GetHandleVerifier [0x00C7231C+1249612]
-GetHandleVerifier [0x00BC1575+525221]
-GetHandleVerifier [0x00BC1310+524608]
-Ordinal0 [0x00B25D28+1531176]
-GetHandleVerifier [0x00BC1D4A+527226]
-Ordinal0 [0x00AA75F6+1013238]
-Ordinal0 [0x00AA746F+1012847]
-Ordinal0 [0x00AB365B+1062491]
-Ordinal0 [0x00AB379F+1062815]
-Ordinal0 [0x00AB2745+1058629]
-BaseThreadInitThunk [0x760F0419+25]
-RtlGetAppContainerNamedObjectPath [0x7747662D+237]
-RtlGetAppContainerNamedObjectPath [0x774765FD+189]
-
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
-at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
-at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
-at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
-at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
-at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
-at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
-at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
-at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
-at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:219)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:142)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
-at Hotel_Dweb.Hotel.SetupApplication(Hotel.java:46)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method status="PASS" signature="main(java.lang.String)[pri:0, instance:Hotel_Dweb.Hotel@2f686d1f]" name="main" duration-ms="64554" started-at="2020-07-08T11:58:25Z" data-provider="hoteldata" finished-at="2020-07-08T11:59:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
+            <line>
+              <![CDATA[ ========== TestCase Started on homepage ======]]>
+            </line>
+            <line>
+              <![CDATA[Hotelicon passed]]>
+            </line>
+            <line>
+              <![CDATA[Enter the location passed]]>
+            </line>
+            <line>
+              <![CDATA[Select dropdown passed ]]>
+            </line>
+            <line>
+              <![CDATA[Checkin passed]]>
+            </line>
+            <line>
+              <![CDATA[Searchbutton passed]]>
+            </line>
+            <line>
+              <![CDATA[======Test case start on SRP page]]>
+            </line>
+            <line>
+              <![CDATA[Check all filters on SRP page]]>
+            </line>
+            <line>
+              <![CDATA[Hotelselection passed]]>
+            </line>
+            <line>
+              <![CDATA[SelectHotel passed]]>
+            </line>
+            <line>
+              <![CDATA[======= Assertion check on Review page =======]]>
+            </line>
+            <line>
+              <![CDATA[Traveller details passed]]>
+            </line>
+            <line>
+              <![CDATA[Proc_To_Payment passed]]>
+            </line>
+            <line>
+              <![CDATA[=======Assertion Check start on Payment page=======]]>
+            </line>
           </reporter-output>
         </test-method> <!-- main -->
-        <test-method status="SKIP" signature="sessionclose()[pri:0, instance:Hotel_Dweb.Hotel@2f686d1f]" name="sessionclose" is-config="true" duration-ms="0" started-at="2020-07-07T08:15:10Z" finished-at="2020-07-07T08:15:10Z">
+        <test-method status="PASS" signature="sessionclose()[pri:0, instance:Hotel_Dweb.Hotel@2f686d1f]" name="sessionclose" is-config="true" duration-ms="1301" started-at="2020-07-08T11:59:29Z" finished-at="2020-07-08T11:59:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sessionclose -->
-        <test-method status="SKIP" signature="SetupApplication()[pri:0, instance:Hotel_Dweb.Hotel@2f686d1f]" name="SetupApplication" is-config="true" duration-ms="0" started-at="2020-07-07T08:15:10Z" finished-at="2020-07-07T08:15:10Z">
+        <test-method status="PASS" signature="SetupApplication()[pri:0, instance:Hotel_Dweb.Hotel@2f686d1f]" name="SetupApplication" is-config="true" duration-ms="43805" started-at="2020-07-08T11:59:30Z" finished-at="2020-07-08T12:00:14Z">
           <reporter-output>
+            <line>
+              <![CDATA[========= Browser Seesion Started=======]]>
+            </line>
+            <line>
+              <![CDATA[=====Website Url is opening=====]]>
+            </line>
           </reporter-output>
         </test-method> <!-- SetupApplication -->
-        <test-method status="SKIP" signature="main(java.lang.String)[pri:0, instance:Hotel_Dweb.Hotel@2f686d1f]" name="main" duration-ms="0" started-at="2020-07-07T08:15:10Z" data-provider="hoteldata" finished-at="2020-07-07T08:15:10Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: unable to discover open window in chrome
-  (Session info: chrome=75.0.3770.80)
-Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'DEVENDRAGUPTA', ip: '192.168.30.32', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-Ordinal0 [0x00B17DF3+1474035]
-Ordinal0 [0x00A907D1+919505]
-Ordinal0 [0x00A2CB43+510787]
-Ordinal0 [0x00A1D073+446579]
-Ordinal0 [0x009E0E7B+200315]
-Ordinal0 [0x009E069D+198301]
-Ordinal0 [0x009DEECB+192203]
-Ordinal0 [0x009C5FF6+90102]
-Ordinal0 [0x009C765A+95834]
-Ordinal0 [0x009C7554+95572]
-GetHandleVerifier [0x00C7231C+1249612]
-GetHandleVerifier [0x00BC1575+525221]
-GetHandleVerifier [0x00BC1310+524608]
-Ordinal0 [0x00B25D28+1531176]
-GetHandleVerifier [0x00BC1D4A+527226]
-Ordinal0 [0x00AA75F6+1013238]
-Ordinal0 [0x00AA746F+1012847]
-Ordinal0 [0x00AB365B+1062491]
-Ordinal0 [0x00AB379F+1062815]
-Ordinal0 [0x00AB2745+1058629]
-BaseThreadInitThunk [0x760F0419+25]
-RtlGetAppContainerNamedObjectPath [0x7747662D+237]
-RtlGetAppContainerNamedObjectPath [0x774765FD+189]
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: unable to discover open window in chrome
-  (Session info: chrome=75.0.3770.80)
-Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'DEVENDRAGUPTA', ip: '192.168.30.32', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-Ordinal0 [0x00B17DF3+1474035]
-Ordinal0 [0x00A907D1+919505]
-Ordinal0 [0x00A2CB43+510787]
-Ordinal0 [0x00A1D073+446579]
-Ordinal0 [0x009E0E7B+200315]
-Ordinal0 [0x009E069D+198301]
-Ordinal0 [0x009DEECB+192203]
-Ordinal0 [0x009C5FF6+90102]
-Ordinal0 [0x009C765A+95834]
-Ordinal0 [0x009C7554+95572]
-GetHandleVerifier [0x00C7231C+1249612]
-GetHandleVerifier [0x00BC1575+525221]
-GetHandleVerifier [0x00BC1310+524608]
-Ordinal0 [0x00B25D28+1531176]
-GetHandleVerifier [0x00BC1D4A+527226]
-Ordinal0 [0x00AA75F6+1013238]
-Ordinal0 [0x00AA746F+1012847]
-Ordinal0 [0x00AB365B+1062491]
-Ordinal0 [0x00AB379F+1062815]
-Ordinal0 [0x00AB2745+1058629]
-BaseThreadInitThunk [0x760F0419+25]
-RtlGetAppContainerNamedObjectPath [0x7747662D+237]
-RtlGetAppContainerNamedObjectPath [0x774765FD+189]
-
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
-at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
-at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
-at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
-at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
-at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
-at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
-at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
-at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
-at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:219)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:142)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
-at Hotel_Dweb.Hotel.SetupApplication(Hotel.java:46)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method status="PASS" signature="main(java.lang.String)[pri:0, instance:Hotel_Dweb.Hotel@2f686d1f]" name="main" duration-ms="59468" started-at="2020-07-08T12:00:14Z" data-provider="hoteldata" finished-at="2020-07-08T12:01:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amritsar]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
+            <line>
+              <![CDATA[ ========== TestCase Started on homepage ======]]>
+            </line>
+            <line>
+              <![CDATA[Hotelicon passed]]>
+            </line>
+            <line>
+              <![CDATA[Enter the location passed]]>
+            </line>
+            <line>
+              <![CDATA[Select dropdown passed ]]>
+            </line>
+            <line>
+              <![CDATA[Checkin passed]]>
+            </line>
+            <line>
+              <![CDATA[Searchbutton passed]]>
+            </line>
+            <line>
+              <![CDATA[======Test case start on SRP page]]>
+            </line>
+            <line>
+              <![CDATA[Check all filters on SRP page]]>
+            </line>
+            <line>
+              <![CDATA[Hotelselection passed]]>
+            </line>
+            <line>
+              <![CDATA[SelectHotel passed]]>
+            </line>
+            <line>
+              <![CDATA[======= Assertion check on Review page =======]]>
+            </line>
+            <line>
+              <![CDATA[Traveller details passed]]>
+            </line>
+            <line>
+              <![CDATA[Proc_To_Payment passed]]>
+            </line>
+            <line>
+              <![CDATA[=======Assertion Check start on Payment page=======]]>
+            </line>
           </reporter-output>
         </test-method> <!-- main -->
-        <test-method status="SKIP" signature="sessionclose()[pri:0, instance:Hotel_Dweb.Hotel@2f686d1f]" name="sessionclose" is-config="true" duration-ms="0" started-at="2020-07-07T08:15:10Z" finished-at="2020-07-07T08:15:10Z">
+        <test-method status="PASS" signature="sessionclose()[pri:0, instance:Hotel_Dweb.Hotel@2f686d1f]" name="sessionclose" is-config="true" duration-ms="1205" started-at="2020-07-08T12:01:14Z" finished-at="2020-07-08T12:01:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sessionclose -->
-        <test-method status="SKIP" signature="main(java.lang.String)[pri:0, instance:Hotel_Dweb.Hotel@2f686d1f]" name="main" duration-ms="0" started-at="2020-07-07T08:15:10Z" data-provider="hoteldata" finished-at="2020-07-07T08:15:10Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: unable to discover open window in chrome
-  (Session info: chrome=75.0.3770.80)
-Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'DEVENDRAGUPTA', ip: '192.168.30.32', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-Ordinal0 [0x00B17DF3+1474035]
-Ordinal0 [0x00A907D1+919505]
-Ordinal0 [0x00A2CB43+510787]
-Ordinal0 [0x00A1D073+446579]
-Ordinal0 [0x009E0E7B+200315]
-Ordinal0 [0x009E069D+198301]
-Ordinal0 [0x009DEECB+192203]
-Ordinal0 [0x009C5FF6+90102]
-Ordinal0 [0x009C765A+95834]
-Ordinal0 [0x009C7554+95572]
-GetHandleVerifier [0x00C7231C+1249612]
-GetHandleVerifier [0x00BC1575+525221]
-GetHandleVerifier [0x00BC1310+524608]
-Ordinal0 [0x00B25D28+1531176]
-GetHandleVerifier [0x00BC1D4A+527226]
-Ordinal0 [0x00AA75F6+1013238]
-Ordinal0 [0x00AA746F+1012847]
-Ordinal0 [0x00AB365B+1062491]
-Ordinal0 [0x00AB379F+1062815]
-Ordinal0 [0x00AB2745+1058629]
-BaseThreadInitThunk [0x760F0419+25]
-RtlGetAppContainerNamedObjectPath [0x7747662D+237]
-RtlGetAppContainerNamedObjectPath [0x774765FD+189]
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: unable to discover open window in chrome
-  (Session info: chrome=75.0.3770.80)
-Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'DEVENDRAGUPTA', ip: '192.168.30.32', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-Ordinal0 [0x00B17DF3+1474035]
-Ordinal0 [0x00A907D1+919505]
-Ordinal0 [0x00A2CB43+510787]
-Ordinal0 [0x00A1D073+446579]
-Ordinal0 [0x009E0E7B+200315]
-Ordinal0 [0x009E069D+198301]
-Ordinal0 [0x009DEECB+192203]
-Ordinal0 [0x009C5FF6+90102]
-Ordinal0 [0x009C765A+95834]
-Ordinal0 [0x009C7554+95572]
-GetHandleVerifier [0x00C7231C+1249612]
-GetHandleVerifier [0x00BC1575+525221]
-GetHandleVerifier [0x00BC1310+524608]
-Ordinal0 [0x00B25D28+1531176]
-GetHandleVerifier [0x00BC1D4A+527226]
-Ordinal0 [0x00AA75F6+1013238]
-Ordinal0 [0x00AA746F+1012847]
-Ordinal0 [0x00AB365B+1062491]
-Ordinal0 [0x00AB379F+1062815]
-Ordinal0 [0x00AB2745+1058629]
-BaseThreadInitThunk [0x760F0419+25]
-RtlGetAppContainerNamedObjectPath [0x7747662D+237]
-RtlGetAppContainerNamedObjectPath [0x774765FD+189]
-
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
-at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
-at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
-at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
-at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
-at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
-at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
-at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
-at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
-at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:219)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:142)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
-at Hotel_Dweb.Hotel.SetupApplication(Hotel.java:46)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method status="PASS" signature="SetupApplication()[pri:0, instance:Hotel_Dweb.Hotel@2f686d1f]" name="SetupApplication" is-config="true" duration-ms="37559" started-at="2020-07-08T12:01:15Z" finished-at="2020-07-08T12:01:52Z">
           <reporter-output>
-          </reporter-output>
-        </test-method> <!-- main -->
-        <test-method status="SKIP" signature="SetupApplication()[pri:0, instance:Hotel_Dweb.Hotel@2f686d1f]" name="SetupApplication" is-config="true" duration-ms="0" started-at="2020-07-07T08:15:10Z" finished-at="2020-07-07T08:15:10Z">
-          <reporter-output>
+            <line>
+              <![CDATA[========= Browser Seesion Started=======]]>
+            </line>
+            <line>
+              <![CDATA[=====Website Url is opening=====]]>
+            </line>
           </reporter-output>
         </test-method> <!-- SetupApplication -->
-        <test-method status="SKIP" signature="sessionclose()[pri:0, instance:Hotel_Dweb.Hotel@2f686d1f]" name="sessionclose" is-config="true" duration-ms="0" started-at="2020-07-07T08:15:10Z" finished-at="2020-07-07T08:15:10Z">
+        <test-method status="PASS" signature="main(java.lang.String)[pri:0, instance:Hotel_Dweb.Hotel@2f686d1f]" name="main" duration-ms="86348" started-at="2020-07-08T12:01:52Z" data-provider="hoteldata" finished-at="2020-07-08T12:03:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gurgaon]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sessionclose -->
-        <test-method status="SKIP" signature="SetupApplication()[pri:0, instance:Hotel_Dweb.Hotel@2f686d1f]" name="SetupApplication" is-config="true" duration-ms="0" started-at="2020-07-07T08:15:10Z" finished-at="2020-07-07T08:15:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetupApplication -->
-        <test-method status="SKIP" signature="main(java.lang.String)[pri:0, instance:Hotel_Dweb.Hotel@2f686d1f]" name="main" duration-ms="0" started-at="2020-07-07T08:15:10Z" data-provider="hoteldata" finished-at="2020-07-07T08:15:10Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: unable to discover open window in chrome
-  (Session info: chrome=75.0.3770.80)
-Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'DEVENDRAGUPTA', ip: '192.168.30.32', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-Ordinal0 [0x00B17DF3+1474035]
-Ordinal0 [0x00A907D1+919505]
-Ordinal0 [0x00A2CB43+510787]
-Ordinal0 [0x00A1D073+446579]
-Ordinal0 [0x009E0E7B+200315]
-Ordinal0 [0x009E069D+198301]
-Ordinal0 [0x009DEECB+192203]
-Ordinal0 [0x009C5FF6+90102]
-Ordinal0 [0x009C765A+95834]
-Ordinal0 [0x009C7554+95572]
-GetHandleVerifier [0x00C7231C+1249612]
-GetHandleVerifier [0x00BC1575+525221]
-GetHandleVerifier [0x00BC1310+524608]
-Ordinal0 [0x00B25D28+1531176]
-GetHandleVerifier [0x00BC1D4A+527226]
-Ordinal0 [0x00AA75F6+1013238]
-Ordinal0 [0x00AA746F+1012847]
-Ordinal0 [0x00AB365B+1062491]
-Ordinal0 [0x00AB379F+1062815]
-Ordinal0 [0x00AB2745+1058629]
-BaseThreadInitThunk [0x760F0419+25]
-RtlGetAppContainerNamedObjectPath [0x7747662D+237]
-RtlGetAppContainerNamedObjectPath [0x774765FD+189]
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: unable to discover open window in chrome
-  (Session info: chrome=75.0.3770.80)
-Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'DEVENDRAGUPTA', ip: '192.168.30.32', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-Ordinal0 [0x00B17DF3+1474035]
-Ordinal0 [0x00A907D1+919505]
-Ordinal0 [0x00A2CB43+510787]
-Ordinal0 [0x00A1D073+446579]
-Ordinal0 [0x009E0E7B+200315]
-Ordinal0 [0x009E069D+198301]
-Ordinal0 [0x009DEECB+192203]
-Ordinal0 [0x009C5FF6+90102]
-Ordinal0 [0x009C765A+95834]
-Ordinal0 [0x009C7554+95572]
-GetHandleVerifier [0x00C7231C+1249612]
-GetHandleVerifier [0x00BC1575+525221]
-GetHandleVerifier [0x00BC1310+524608]
-Ordinal0 [0x00B25D28+1531176]
-GetHandleVerifier [0x00BC1D4A+527226]
-Ordinal0 [0x00AA75F6+1013238]
-Ordinal0 [0x00AA746F+1012847]
-Ordinal0 [0x00AB365B+1062491]
-Ordinal0 [0x00AB379F+1062815]
-Ordinal0 [0x00AB2745+1058629]
-BaseThreadInitThunk [0x760F0419+25]
-RtlGetAppContainerNamedObjectPath [0x7747662D+237]
-RtlGetAppContainerNamedObjectPath [0x774765FD+189]
-
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
-at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
-at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
-at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
-at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
-at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
-at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
-at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
-at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
-at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:219)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:142)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
-at Hotel_Dweb.Hotel.SetupApplication(Hotel.java:46)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
-          <reporter-output>
+            <line>
+              <![CDATA[ ========== TestCase Started on homepage ======]]>
+            </line>
+            <line>
+              <![CDATA[Hotelicon passed]]>
+            </line>
+            <line>
+              <![CDATA[Enter the location passed]]>
+            </line>
+            <line>
+              <![CDATA[Select dropdown passed ]]>
+            </line>
+            <line>
+              <![CDATA[Checkin passed]]>
+            </line>
+            <line>
+              <![CDATA[Searchbutton passed]]>
+            </line>
+            <line>
+              <![CDATA[======Test case start on SRP page]]>
+            </line>
+            <line>
+              <![CDATA[Check all filters on SRP page]]>
+            </line>
+            <line>
+              <![CDATA[Hotelselection passed]]>
+            </line>
+            <line>
+              <![CDATA[SelectHotel passed]]>
+            </line>
+            <line>
+              <![CDATA[======= Assertion check on Review page =======]]>
+            </line>
+            <line>
+              <![CDATA[Traveller details passed]]>
+            </line>
+            <line>
+              <![CDATA[Proc_To_Payment passed]]>
+            </line>
+            <line>
+              <![CDATA[=======Assertion Check start on Payment page=======]]>
+            </line>
           </reporter-output>
         </test-method> <!-- main -->
-        <test-method status="SKIP" signature="sessionclose()[pri:0, instance:Hotel_Dweb.Hotel@2f686d1f]" name="sessionclose" is-config="true" duration-ms="0" started-at="2020-07-07T08:15:10Z" finished-at="2020-07-07T08:15:10Z">
+        <test-method status="PASS" signature="sessionclose()[pri:0, instance:Hotel_Dweb.Hotel@2f686d1f]" name="sessionclose" is-config="true" duration-ms="1254" started-at="2020-07-08T12:03:19Z" finished-at="2020-07-08T12:03:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sessionclose -->
       </class> <!-- Hotel_Dweb.Hotel -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

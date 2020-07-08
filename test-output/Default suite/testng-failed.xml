@@ -5,7 +5,7 @@
     <classes>
       <class name="Hotel_Dweb.Hotel">
         <methods>
-          <include name="main"/>
+          <include name="main" invocation-numbers="0"/>
           <include name="sessionclose"/>
           <include name="SetupApplication"/>
         </methods>
